@@ -1,4 +1,5 @@
 from pathlib import Path
+from typing import Iterable
 
 
 def should_continue_processing(
@@ -14,7 +15,7 @@ def should_continue_processing(
         raise FileNotFoundError(f"'{infile}' wasn't found or isn't a file...")
 
 
-def check_meets_condition(infile: Path, outfile: Path, force: bool):
+def check_meets_condition(infile: Path, outfile: Path, force: bool) -> Iterable[bool]:
     """
     Takes an infile path, an outfile path, and whether or not the job was forced, and returns
     whether or not the existing conditions meet the requirements for processing to continue.
