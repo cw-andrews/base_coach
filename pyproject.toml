@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "base_coach"
 version = "0.1.0"
-description = "file checks to determine whether or not something should happen"
+description = "File checks to determine whether or not something should happen"
 authors = ["cw-andrews <cwandrews@protonmail.com>"]
 license = "MIT"
 
