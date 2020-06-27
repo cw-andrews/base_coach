@@ -1,17 +1,17 @@
-# See PEP 518: https://www.python.org/dev/peps/pep-0518/ for info on this file's structure.
-
-[tool.pyflow]
+[tool.poetry]
 name = "base_coach"
-py_version = "3.8"
 version = "0.1.0"
+description = "file checks to determine whether or not something should happen"
 authors = ["cw-andrews <cwandrews@protonmail.com>"]
+license = "MIT"
 
+[tool.poetry.dependencies]
+python = "^3.8"
 
-[tool.pyflow.scripts]
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.3"
+black = "^19.10b0"
 
-
-[tool.pyflow.dependencies]
-
-
-[tool.pyflow.dev-dependencies]
-
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
