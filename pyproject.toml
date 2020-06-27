@@ -1,0 +1,17 @@
+# See PEP 518: https://www.python.org/dev/peps/pep-0518/ for info on this file's structure.
+
+[tool.pyflow]
+name = "base_coach"
+py_version = "3.8"
+version = "0.1.0"
+authors = ["cw-andrews <cwandrews@protonmail.com>"]
+
+
+[tool.pyflow.scripts]
+
+
+[tool.pyflow.dependencies]
+
+
+[tool.pyflow.dev-dependencies]
+
