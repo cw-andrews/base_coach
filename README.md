@@ -1,3 +1,3 @@
 # base_coach
 
-(A description)
+File checks to determine whether or not a src file should be processed into a dst file

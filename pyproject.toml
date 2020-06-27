@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "base_coach"
 version = "0.1.0"
-description = "File checks to determine whether or not something should happen"
+description = "File checks to determine whether or not a src file should be processed into a dst file"
 authors = ["cw-andrews <cwandrews@protonmail.com>"]
 license = "MIT"
 
